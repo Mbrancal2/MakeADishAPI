@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3b5b6024-8321-4978-b2f7-9c4998ceb182" name="@MBLaptop 2024-11-06 15:04:22" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-11-06T15:04:22.1969644-05:00" queuing="2024-11-06T15:04:22.1969645-05:00" start="2024-11-06T15:04:21.1434290-05:00" finish="2024-11-06T15:04:22.2019771-05:00" />
+  <TestSettings name="default" id="03b6c962-6db1-4c0c-b90d-c73b4a906e63">
+    <Deployment runDeploymentRoot="_MBLaptop_2024-11-06_15_04_22" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="99f00abc-9032-468b-9b2e-c67ce6dbfccc" testId="7a91ffd5-394f-a193-8cff-75003704c300" testName="MakeADish.Tests.UnitTest1.Test1" computerName="MBLaptop" duration="00:00:00.0014164" startTime="2024-11-06T15:04:22.1252863-05:00" endTime="2024-11-06T15:04:22.1252976-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99f00abc-9032-468b-9b2e-c67ce6dbfccc" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MakeADish.Tests.UnitTest1.Test1" storage="/home/mbrancal/project_c#/makeadish/makeadish.tests/bin/debug/net8.0/makeadish.tests.dll" id="7a91ffd5-394f-a193-8cff-75003704c300">
+      <Execution id="99f00abc-9032-468b-9b2e-c67ce6dbfccc" />
+      <TestMethod codeBase="/home/mbrancal/project_C#/MakeADish/MakeADish.Tests/bin/Debug/net8.0/MakeADish.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MakeADish.Tests.UnitTest1" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7a91ffd5-394f-a193-8cff-75003704c300" executionId="99f00abc-9032-468b-9b2e-c67ce6dbfccc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 8.0.0)
+[xUnit.net 00:00:00.60]   Discovering: MakeADish.Tests
+[xUnit.net 00:00:00.61]   Discovered:  MakeADish.Tests
+[xUnit.net 00:00:00.61]   Starting:    MakeADish.Tests
+[xUnit.net 00:00:00.64]   Finished:    MakeADish.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

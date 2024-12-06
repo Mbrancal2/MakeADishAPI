@@ -1,0 +1,6 @@
+@MakeADishApi_HostAddress = http://localhost:5009
+
+GET {{MakeADishApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
